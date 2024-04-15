@@ -1,3 +1,6 @@
+**Go here to download binaries and code**
+
+https://github.com/LinuxBeaver/Royal_Text_Gimp_Plugin/releases
 
 ## GEGL royal text
 
