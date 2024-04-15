@@ -63,5 +63,7 @@ ninja -C build
 
 ![image](https://github.com/LinuxBeaver/Royal_Text_Gimp_Plugin/assets/78667207/4f159808-5b82-40ef-bf09-7fa6c7247056)
 
+![image](https://github.com/LinuxBeaver/Royal_Text_Gimp_Plugin/assets/78667207/401e361d-a1cc-4e90-9d59-19d1e9425c8c)
+
 
 
