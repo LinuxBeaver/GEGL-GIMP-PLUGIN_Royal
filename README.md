@@ -2,7 +2,7 @@
 
 https://github.com/LinuxBeaver/Royal_Text_Gimp_Plugin/releases
 
-## GEGL royal text
+## GEGL Royal - a text styling plugin for Gimp
 
 ![image](https://github.com/LinuxBeaver/Royal_Text_Gimp_Plugin/assets/78667207/e398f9b4-c4a6-4062-90cd-11a09fa49991)
 
