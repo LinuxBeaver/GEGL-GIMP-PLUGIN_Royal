@@ -139,7 +139,7 @@ static void attach (GeglOperation *operation)
                                   NULL);
 
     GeglNode *unequalblur    = gegl_node_new_child (gegl,
-                                  "operation", "gegl:gaussian-blur", "std-dev-x", 3.0, "std-dev-y", 1.0,
+                                  "operation", "gegl:gaussian-blur", "std-dev-x", 3.0, "std-dev-y", 1.0, "abyss-policy", 0, "clip-extent", 0,
                                   NULL);
 
     GeglNode *emboss    = gegl_node_new_child (gegl,
