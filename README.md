@@ -14,13 +14,15 @@ https://github.com/LinuxBeaver/Royal_Text_Gimp_Plugin/releases
 
 **Windows**
 
-C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins
+`C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins`
  
 **Linux**
- /home/(USERNAME)/.local/share/gegl-0.4/plug-ins
+
+`~/.local/share/gegl-0.4/plug-ins`
  
 **Linux (Flatpak)**
- /home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins
+
+ `~/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins`
 
 
 
