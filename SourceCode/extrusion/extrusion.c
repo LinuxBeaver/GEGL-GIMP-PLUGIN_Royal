@@ -19,9 +19,9 @@
 
 /*
 
-GEGL Graph reconstruction. This may not be 100% accurate but is a rough GEGL Graph of this plugim.  If you run this in Gimp's
+GEGL Graph reconstruction. This may not be 100% accurate but is a rough GEGL Graph of this plugim.  If you run this in Gimpꞌs
 GEGL Graph filter you can test this plugin without installing it.  LB EDGE SMOOTH AND LB BEVEL IS ANOTHER PLUGIN OF MINE. So
-withot them you can't run this.
+withot them you canꞌt run this.
 
 lb:edgesmooth
 
@@ -48,7 +48,7 @@ lb:edgesmooth
 
 
 property_boolean (behindextrusion, _("Put Extrusion behind image"), TRUE)
-  description    (_("Gimp's behind blend mode does pretty much exactly the same thing; this is just a alternative to that for novices. I used the word -pretty much- because this adds an addition edge smooth to the GEGL Graph on the first image to improve the extrusion. When this is disabled the extrusion requires the behind blend mode or to be put on a layer below"))
+  description    (_("Gimpꞌs behind blend mode does pretty much exactly the same thing; this is just a alternative to that for novices. I used the word -pretty much- because this adds an addition edge smooth to the GEGL Graph on the first image to improve the extrusion. When this is disabled the extrusion requires the behind blend mode or to be put on a layer below"))
 
 
 property_double (center_x, _("Center X"), -2.1)
@@ -69,7 +69,7 @@ property_double (factor, _("Length of extrusion"), 0.009)
     ui_gamma    (2.0)
 
 property_int (depth, _("Increase roughness"), 14)
-    description (_("Internal Bevel's width"))
+    description (_("Internal Bevelꞌs width"))
     value_range (1, 30)
 
 
@@ -186,7 +186,7 @@ static void attach (GeglOperation *operation)
                                   NULL);
 
 
-/* Original graph that isn't needed anymore. This graph can't use blend mode switchers.
+/* Original graph that isnꞌt needed anymore. This graph canꞌt use blend mode switchers.
 
   gegl_node_link_many (input, zmb, nop, multiply, alpha, nop2, screen, median, nr, chroma, brightness, edgesmoothend, output, NULL);
   gegl_node_connect (multiply, "aux", bevel, "output");

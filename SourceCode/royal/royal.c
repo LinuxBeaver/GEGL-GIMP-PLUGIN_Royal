@@ -54,23 +54,23 @@ Fun Fact, this plugin has a graph very similar to Glossy Balloon at the beginnin
 
 
 property_int (hue, _("Rotate color of bevel"), 0)
-    description (_("The bevel's color can be controlled by a limited hue rotation, due to technical limitations the hue rotation cannot go all the way"))
+    description (_("The bevelꞌs color can be controlled by a limited hue rotation, due to technical limitations the hue rotation cannot go all the way"))
     value_range (-45, 45)
     ui_meta ("unit", "degree")
 
 
 property_int (outline_hue, _("Rotate color of bevel outline"), 0)
-    description (_("The bevel outline's color can be controlled by a limited hue rotation, due to technical limitations the hue rotation cannot go all the way"))
+    description (_("The bevel outlineꞌs color can be controlled by a limited hue rotation, due to technical limitations the hue rotation cannot go all the way"))
     value_range (-45, 45)
     ui_meta ("unit", "degree")
 
 property_double (azimuth, _("Azimuth of everything"), 67.0)
-    description (_("The bevel and bevel outline's light angle (degrees)"))
+    description (_("The bevel and bevel outlineꞌs light angle (degrees)"))
     value_range (30, 90)
     ui_meta ("unit", "degree")
 
 property_double (elevation, _("Elevation of everything"), 40.0)
-    description (_("The bevel and bevel outline's elevation angle (degrees)"))
+    description (_("The bevel and bevel outlineꞌs elevation angle (degrees)"))
     value_range (7, 90)
     ui_meta ("unit", "degree")
 
@@ -91,7 +91,7 @@ property_double (enhance, _("Shine enhancer"), 3.0)
     ui_meta ("unit", "degree")
 
 property_int (bloom, _("Bloom light"), 20)
-    description (_("The bloom filter's strength function to give the text style a lighting and glow effect"))
+    description (_("The bloom filterꞌs strength function to give the text style a lighting and glow effect"))
     value_range (10.0, 40.0)
 
 
